@@ -1,0 +1,258 @@
+*{
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    margin:auto;
+    width:45%;
+    border:1px solid black;
+    padding:10px;
+    background-color:gainsboro;
+    border-radius: 4px;
+}
+h1{
+    text-align: center;
+    font-family:cursive;
+    color:cornflowerblue;
+}
+form{
+    background-color: white;
+    border-radius: 5px;
+}
+/* General questions */
+.line1{
+    display:flex;
+    padding-left:0%;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+.line1 input{
+    width:69%;
+}
+.line2{
+    display:flex;
+    padding-left:0%;
+    margin-top:1%;
+    margin-bottom:1%;
+    justify-content: space-between;
+  }
+.line21,.line22,.line23{
+    display:flex;
+    justify-content: space-between;
+    padding-left:2%;
+}
+#Birthdate, #Gender, #PassportNo{
+    width:50%;
+}
+.line3{
+    display: flex;
+    padding-left:0;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+.line3 input{
+    width:87%;
+    box-sizing: border-box;
+}
+.line4{
+    display:inline;
+    padding-left:2%;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+.line4 input{
+    width:28.6%;
+}
+.line4 input[type=number]{
+    margin-right: 4%;
+}
+.line5{
+    display:flex;
+    padding-left:2%;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+#SocialSecurityNubmer{
+    margin-right:2.1%;
+}
+.line5 input{
+    width:40%;
+}
+.line5 #IdNumber{
+    margin-right: 7.6%;
+}
+.line6{
+    display:flex;
+    padding-left:0;
+    margin-top:1%;
+    margin-bottom:1%;
+    margin-right:46.5%;
+}
+.line7{
+    display:flex;
+    padding-left:0;
+    margin-top:1%;
+    margin-bottom:1%;
+    margin-left:2%;
+    justify-content: space-between;
+}
+.line7 input[type=text]{
+    margin-right: 5%;
+}
+
+/* personalquestions */
+.line9{
+    display:flex;
+    padding-left:0%;
+    margin-top:1%;
+    margin-bottom:1%;
+    
+}
+.line9 input{
+    width:73.4%;
+}
+.line10{
+    display:flex;
+    padding-left:0%;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+.line10 input{
+    width:42.7%;
+}
+.line11{
+    display:flex;
+    padding-left:0%;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+.line11 input{
+    width:53.9%;
+}
+.ESC{
+    width: 95.4%;
+    display: flex;
+    justify-content: space-between;
+    margin-left:2%;
+    border: solid lightsteelblue 2px;
+    border-radius: 2px;
+}
+.Employee input[type=text]{
+    margin-bottom:3%;
+}
+.Plans{
+    width: 95.8%;
+    display: flex;
+    justify-content: space-between;
+    margin:2%;
+}
+.PlanA{
+    padding:none;
+    width:50%;
+    margin-right: 2%;
+    background-color: lightsteelblue;
+    border-radius: 2px;
+}
+.PlanB{
+    
+    padding:none;
+    width:50%;
+    padding-bottom: 2%;
+    margin-left:2%;
+    background-color: lightsteelblue;
+    border:solid lightsteelblue 3px;
+    border-radius: 2px;
+}
+A4{
+    color:red;
+    font-weight:bold;
+}
+
+/* The policy */
+.line14{
+    display:flex;
+    padding-left:0%;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+.line14 input{
+    width:36%;
+}
+.line15{
+    display:flex;
+    padding-left:0%;
+    margin-top:1%;
+    margin-bottom:1%;
+    margin-right:17.5%;
+}
+.line16{
+    display:flex;
+    padding-left:0%;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+.line16 input{
+    width:71%;
+}
+.line17{
+    display:flex;
+    padding-left:0%;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+.line17 input{
+    width:70%;
+}
+
+/* Terms and conditions */
+.Terms{
+    width: 98.5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightsteelblue;
+}
+.tc{
+    padding:none;
+    width:65%;
+    margin-right: 0.5%;
+    background-color: lightsteelblue;
+    border-radius: 2px;
+}
+.tc p{
+    margin-left:3%;
+    margin-right:1%;
+}
+.signdate{
+    width:35%;
+    margin-left:1%;
+    background-color: lightsteelblue;
+    border:solid lightsteelblue 3px;
+    border-radius: 2px;
+    /* margin-right:1.5%; */
+}
+.Sign{
+    margin-top:5%;
+    margin-bottom:3%;
+    padding-top:7%;
+    padding-bottom:1%;
+}
+#Signature{
+    width:98%;
+}
+.Date{
+    margin-top:4;
+    margin-bottom:5%;
+    padding-top:1%;
+    padding-bottom:8%;
+}
+#Date{
+    width:79%;
+    margin-left:0.1%;
+    margin-right:none;
+    padding-right:none;
+}
+input{
+    border:solid 2px lightsteelblue;
+    border-radius: 4px;
+}

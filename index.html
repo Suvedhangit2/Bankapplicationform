@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Application Form</h1>
+    <form action=""> 
+        <div class="Generalquestions"  id="Generalquestions">
+            <h4>General Questions</h4>
+              <div class="line1">
+                    <label for="ProposedInsuredName" id="ProposedInsuredNamelabel">Proposed Insured's Name:</label>
+                    <input type="text" name="ProposedInsuredName" id="ProposedInsuredName" placeholder="Please use capital letters">
+                    <!-- <label for="ProposedInsuredName"><h6>(Please use capital letters) </h6></label><br> -->
+                    
+                </div>
+                <div class="line2">
+                    <div class="line21">
+                        <label for="BirthDate">Birth Date:</label>
+                        <input type="text" name="BirthDate" id="Birthdate">
+                    </div>
+                    <div class="line22">
+                        <label for="Gender">Gender:</label>
+                        <input type="radio" name="Gender" id="Gender1" >
+                        <label for="Gender1">Male</label>
+                        <input type="radio" name="Gender" id="Gender2" >
+                        <label for="Gender2">Female</label>
+                    </div>
+                    <div class="line23">
+                        <label for="PassportNo">Passport no:</label>
+                        <input type="text" name="PassportNo" id="PassportNo"><br>
+                    </div>
+                </div>
+                <div class="line3">
+                    <label for="Address">Address:</label>
+                    <input type="text" name="Address" id="Address"><br>
+                </div>
+                <div class="line4">
+                    <label for="PhoneNumber">Phone Number:</label>
+                    <input type="number" name="PhoneNumber" id="PhoneNumber">
+                    <label for="EmailAddress">Email Address:</label>
+                    <input type="email" name="EmailAddress" id="EmailAddress">
+                </div>
+                <div class="line5">
+                    <label for="IDNumber">ID Number:</label>
+                    <input type="number" name="IDNumber" id="IdNumber">
+                    <label for="SocialSecurityNubmer">Social Security Number:</label>
+                    <input type="number" name="SocialSecurityNubmer" id="SocialSecurityNubmer">
+                </div>
+                <div class="line6">
+                    <label for="Status">Status:</label>
+                    <input type="radio" name="Status" id="Status1">
+                    <label for="Status1">Single</label>
+                    <input type="radio" name="Status" id="Status2">
+                    <label for="Status2">Married</label>
+                    <input type="radio" name="Status" id="Status3">
+                    <label for="Status3">Divorced</label>
+                    <input type="radio" name="Status" id="Status4">
+                    <label for="Status4">Others</label><br>
+                </div>
+                <div class="line7">
+                    <label for="Occupation">Occupation:</label>
+                    <input type="text" name="Occupation" id="Occupation">
+                    <label for="Retiree">Are you a retiree?</label>
+                    <input type="radio" name="retiree" id="retiree1">
+                    <label for="retiree1">Yes</label>
+                    <input type="radio" name="retiree" id="retiree2">
+                    <label for="retiree2">No</label><br>
+                </div>
+        </div>
+
+        <div class="Personalquestions">
+            <h4>Personal Questions</h4>
+            <div class="line9">
+                <label for="NameofBeneficiary">Name of Beneficiary:</label>
+                <input type="text" name="NameofBeneficiary" id="NameofBeneficiary">
+            </div>
+            <div class="line10">
+                <label for="BankAccount">Bank Account: (or ID number for confimation only):</label>
+                <input type="number" name="BankAccount" id="BankAccount">
+            </div>
+            <div class="line11">
+                <label for="NameandAddressBank">Name and Address of beneficiary's Bank:</label>
+                <input type="text" name="NameandAddressBank" id="NameandAddressBank"><br>
+            </div>
+            
+            <div class="ESC">
+                <A1 class="Employee">
+                    <label for="Employee">Employee:</label>
+                    <input type="radio" name="Employee" id="Employeeyes">
+                    <label for="Employeeyes">Yes</label>
+                    <input type="radio" name="Employee" id="Employeeno">
+                    <label for="Employeeno">No</label><br>
+                    <label for="PlanChoice">Plan Choice:</label>
+                    <input type="text" name="PlanChoice" id="PlanChoice">
+                </A1><br>
+                <A2 class="Spouse">
+                    <label for="Spouse">Spouse:</label>
+                    <input type="radio" name="Spouse" id="Spouseyes">
+                    <label for="Spouseyes">Yes</label>
+                    <input type="radio" name="Spouse" id="Spouseno">
+                    <label for="Spouseno">No</label><br>
+                    <label for="PlanChoice">Plan Choice:</label>
+                    <input type="text" name="PlanChoice" id="PlanChoice">
+                </A2>
+                <br>
+                <A3 class="Children">
+                    <label for="Children">Children:</label>
+                    <input type="radio" name="Children" id="Childrenyes">
+                    <label for="Childrenyes">Yes</label>
+                    <input type="radio" name="Children" id="Childrenno">
+                    <label for="Childrenno">No</label><br>
+                    <label for="PlanChoice">Plan Choice:</label>
+                    <input type="text" name="PlanChoice" id="PlanChoice">
+                </A3>
+            </div>
+
+            <div class="Plans">
+                <div class="PlanA">
+                <input type="radio" name="Plan" id="PlanA">
+                <label for="PlanA">Plan A</label>
+                <p>Starting from $25 per week** (prices excl. VAT, activation fees apply) See more details on page 17</p>
+                </div>
+                <div class="PlanB">
+                <input type="radio" name="Plan" id="PlanB">
+                <label for="PlanB">Plan B </label><A4>JOIN NOW!</A4>
+                <p>Starting from  THB $21 per week** (prices excl. VAT.) See more details on page 17</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="ThePolicy">
+            <h4>The Policy</h4>
+                <div class="line14">
+                    <label for="Units">Units:</label>
+                    <input type="text" name="Units" id="Units">
+                    <label for="AnnulPremium">Annul Premium:</label>
+                    <input type="text" name="AnnulPremium" id="AnnulPremium">
+                </div>
+                <div class="line15">
+                    <label for="PaymentMode">Payment Mode:</label>
+                    <input type="radio" name="PaymentMode" id="PaymentMode1">
+                    <label for="PaymentMode1">Annual</label>
+                    <input type="radio" name="PaymentMode" id="PaymentMode2">
+                    <label for="PaymentMode2">Semi-Annual</label>
+                    <input type="radio" name="PaymentMode" id="PaymentMode3">
+                    <label for="PaymentMode3">Monthly PAT(complete PAT card)</label><br>
+                </div>
+                <div class="line16">
+                    <label for="CashWithApplication">Cash With Application: $</label>
+                    <input type="number" name="CashWithApplication" id="CashWithApplication">
+                </div>
+                <div class="line17">
+                    <label for="PlannedModalPremium">PlannedModalPremium: $</label>
+                    <input type="number" name="PlannedModalPremium" id="PlannedModalPremium">
+                </div>
+        </div>
+
+        <div class="Terms">
+            <div class="tc">
+                <h4>Terms & conditions</h4>
+                <p>Improvement should be measured regularly and assessed in order for you to know what's is not. This will help you set new targets.</p>
+            </div>
+            <div class="signdate">
+                <div class="Sign">
+                <label for="Signature">Signature:</label><br>
+                <input type="text" name="Signature" id="Signature" placeholder="X"><br>
+                </div>
+                <div class="Date">
+                <label for="Date">Date:</label>
+                <input type="text" name="Date" id="Date">
+                </div>
+            </div>
+        </div>
+        
+
+
+    </form>
+    </div>
+    
+</body>
+</html>
